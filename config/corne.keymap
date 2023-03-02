@@ -88,23 +88,23 @@
 // | CTRL |     |     |  #  |  _  | "|" |   | 0   | 1   | 2   | 3   |  .  |  =  |
 //                    | NUM |SHFT | NAV |   |BCKSP| SPC | ENT |
                         bindings = <
-   &trans    &kp KP_GRAVE  &kp POUND   &kp CARET  &kp AT      &mt RBRC LBRC         &mt BSLH KP_FSLH     &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp KP_MINUS   &trans
-   &trans    &kp TILDE     &kp DLLR    &kp PRCNT  &kp AMPS    &mt RT LT             &kp MULTIPLY         &kp KP_N4   &kp KP_N5   &kp KP_N6    &kp KP_PLUS    &trans
+   &trans    &kp GRAVE     &kp POUND   &kp CARET  &kp AT      &mt RBRC LBRC         &mt BSLH KP_FSLH     &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp KP_MINUS   &trans
+   &trans    &kp TILDE     &kp DLLR    &kp PRCNT  &kp AMPS    &mt GT LT             &kp MULTIPLY         &kp KP_N4   &kp KP_N5   &kp KP_N6    &kp KP_PLUS    &trans
    &trans    &none         &none       &kp HASH   &kp UNDER   &kp PIPE              &kp KP_N0            &kp KP_N1   &kp KP_N2   &kp KP_N3    &kp KP_DOT     &kp EQUAL
                                        &trans     &trans      &trans                &trans               &trans      &trans
                         >;
                 };
                 NAV_layer {
 // -----------------------------------------------------------------------------------------
-// | TAB  |FIND |PRVAPP| UP   |NXTAPP|DEL  |   |VOL+ |LC+U |LC+B |LC+I| BR+ |LOCK|
+// | TAB  |FIND |      | UP   |      |DEL  |   |VOL+ |LC+U |LC+B |LC+I| BR+ |LOCK|
 // | CTRL |ALL  |LEFT  | DOWN |RIGHT |COPY |   |VOL- |RWND |PLAY |FFWD| BR- |    |
 // | SHFT |UNDO |WIN+1 | WIN  |WIN+E |PASTE|   |MUTE |     |     |    |     |    |
 //                     | NUM  | SHFT |NAV  |   |BCKSP| SPC | ENT |
                         bindings = <
-   &trans    &kp LC(F)        &kp LC(LA(TAB(LFT)))  &kp UP     &kp LC(LA(TAB(RGT))) &kp DEL                     &kp C_VOL_UP    &kp LC(U)        &kp LC(B)  &kp LC(I)        &kp C_BR_UP  &kp LC(L)
-   &trans    &kp LC(A)        &kp LFT               &kp DWN    &kp RGT              &mt LC(X) LC(C)             &kp C_VOL_DN    &mt C_RW C_PREV  &kp C_PP   &mt C_FF C_NEXT  &kp C_BR_DN  &none 
-   &trans    &mt LC(Y) LC(Z)  &kp LG(N1)            &kp GUI    &kp LG(E)            &mt LC(LA(V)) LC(V)         &kp C_MUTE      &kp LG(LA(K))    &none      &none            &none        &none 
-                    	                            &trans     &trans               &trans                      &trans          &trans           &trans
+   &trans    &kp LC(F)        &none             &kp UP     &none          &kp DEL                     &kp C_VOL_UP    &kp LC(U)        &kp LC(B)  &kp LC(I)        &kp C_BR_UP  &kp LC(L)
+   &trans    &kp LC(A)        &kp LEFT          &kp DOWN   &kp RIGHT      &mt LC(X) LC(C)             &kp C_VOL_DN    &mt C_RW C_PREV  &kp C_PP   &mt C_FF C_NEXT  &kp C_BR_DN  &none 
+   &trans    &mt LC(Y) LC(Z)  &kp LG(N1)        &kp GUI    &kp LG(E)      &mt LC(LA(V)) LC(V)         &kp C_MUTE      &kp LG(LA(K))    &none      &none            &none        &none 
+                    	                        &trans     &trans         &trans                      &trans          &trans           &trans
                         >;
                 };
                 BT_layer {
