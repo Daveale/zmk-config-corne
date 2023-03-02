@@ -88,8 +88,8 @@
 // | CTRL |     |     |  #  |  _  | "|" |   | 0   | 1   | 2   | 3   |  .  |  =  |
 //                    | NUM |SHFT | NAV |   |BCKSP| SPC | ENT |
                         bindings = <
-   &trans    &kp GRAVE     &kp POUND   &kp CARET  &kp AT      &mt RBRC LBRC         &mt BSLH KP_FSLH     &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp KP_MINUS   &trans
-   &trans    &kp TILDE     &kp DLLR    &kp PRCNT  &kp AMPS    &mt GT LT             &kp MULTIPLY         &kp KP_N4   &kp KP_N5   &kp KP_N6    &kp KP_PLUS    &trans
+   &trans    &kp GRAVE     &kp POUND   &kp CARET  &kp AT      &mt RBRC LBRC         &mt BSLH KP_SLASH    &kp KP_N7   &kp KP_N8   &kp KP_N9    &kp KP_MINUS   &trans
+   &trans    &kp TILDE     &kp DLLR    &kp PRCNT  &kp AMPS    &mt GT LT             &kp KP_MULTIPLY      &kp KP_N4   &kp KP_N5   &kp KP_N6    &kp KP_PLUS    &trans
    &trans    &none         &none       &kp HASH   &kp UNDER   &kp PIPE              &kp KP_N0            &kp KP_N1   &kp KP_N2   &kp KP_N3    &kp KP_DOT     &kp EQUAL
                                        &trans     &trans      &trans                &trans               &trans      &trans
                         >;
