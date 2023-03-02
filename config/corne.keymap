@@ -101,9 +101,9 @@
 // | SHFT |UNDO |WIN+1 | WIN  |WIN+E |PASTE|   |MUTE |MICMUTE|     |    |     |    |
 //                     | NUM  | SHFT |NAV  |   |BCKSP| SPC   | ENT |
                         bindings = <
-   &trans    &kp LC(F)        &none             &kp UP     &none          &kp DEL                     &kp C_VOL_UP    &kp LC(U)        &kp LC(B)  &kp LC(I)        &kp C_BR_UP  &kp LG(L)
-   &trans    &kp LC(A)        &kp LEFT          &kp DOWN   &kp RIGHT      &mt LC(X) LC(C)             &kp C_VOL_DN    &mt C_RW C_PREV  &kp C_PP   &mt C_FF C_NEXT  &kp C_BR_DN  &none 
-   &trans    &mt LC(Y) LC(Z)  &kp LG(KP_N1)     &kp LGUI   &kp LG(E)      &mt LC(LA(V)) LC(V)         &kp C_MUTE      &kp LG(LA(K))    &none      &none            &none        &none 
+   &trans    &kp LC(F)        &none             &kp UP     &none          &kp DEL                     &kp C_VOL_UP    &kp LC(U)        &kp LC(B)  &kp LC(I)        &kp C_BRI_UP  &kp LG(L)
+   &trans    &kp LC(A)        &kp LEFT          &kp DOWN   &kp RIGHT      &mt LC(X) LC(C)             &kp C_VOL_DN    &mt C_RW C_PREV  &kp C_PP   &mt C_FF C_NEXT  &kp C_BRI_DN  &none 
+   &trans    &mt LC(Y) LC(Z)  &kp LG(N1)        &kp LGUI   &kp LG(E)      &mt LC(LA(V)) LC(V)         &kp C_MUTE      &kp LG(LA(K))    &none      &none            &none         &none 
                     	                        &trans     &trans         &trans                      &trans          &trans           &trans
                         >;
                 };
