@@ -114,10 +114,10 @@
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &BT_CLR       &BT1   &BT2   &BT3   &BT4   &BT5   &none &none &none &none &none  &none 
-   &out OUT_TOG  &none  &none  &none  &none  &none  &none &none &none &none &none  &none
-   &bootloader   &reset &none  &none  &none  &none  &none &none &none &none &reset &bootloader
-                        &trans &none  &trans &none  &none &none
+   &bt BT_CLR    &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_SEL 5        &none &none &none &none &none  &none 
+   &out OUT_TOG  &none          &none           &none           &none           &none               &none &none &none &none &none  &none
+   &bootloader   &reset         &none           &none           &none           &none               &none &none &none &none &reset &bootloader
+                                                &trans          &none           &trans              &none &none &none
                          >;
                 };
         };
